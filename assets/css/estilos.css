@@ -286,3 +286,17 @@ img:not([alt]) {
 a[href$=".pdf"]::after {
     content: url("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
 }
+
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 200px;
+}
+
+.elemento-flex {
+    background-color: #01BAB4;
+    padding: 30px;
+    margin: 10px;
+}

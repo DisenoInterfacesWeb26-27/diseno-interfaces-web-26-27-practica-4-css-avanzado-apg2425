@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Contacto - Clínica DIW</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Contáctanos mediente nuestro formulario, por teléfono o a través de correro electrónico" />
+    <meta name="keywords" content="contacto, Clínica DIW, teléfono, email, formulario" />
+    <meta name="author" content="Alberto Pereda Gámez" />
+    <meta name="copyright" content="2026, Alberto Pereda Gámez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/images/logo.png" alt="Clínica DIW" />
+        </a>
+        <h1>Clínica DIW</h1>
+    </header>
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="servicios.html">SERVICIOS</a>
+        <a href="contacto.html">CONTACTO</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" maxlength="40" pattern="[A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]+" placeholder="Introduce tu nombre" required autofocus /> <br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu email" required /> <br />
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" placeholder="Edad" min="18" max="99" required /> <br />
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu teléfono" required /> <br />
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" placeholder="Escriba su consulta" required></textarea> <br />
+                <label for="privacidad">Acepto la política de privacidad y cookies</label>
+                <input type="checkbox" id="privacidad" name="privacidad" required />
+            </form>
+        </section>
+        <section>
+            <a href="mailto:info@clinicadiw.com">Enviar un mail a info@clinicadiw.com</a> <br />
+            <a href="tel:+34965925555">Llámanos a 9659255555</a>
+        </section>
+    </main>
+    <footer>
+        <a class="fijo" href="https://www.whatsapp.com/" target="_blank">
+            <img src="assets/images/whatsapp.png" alt="Whatsapp" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="assets/images/instagram.png" alt="Instagram" />
+        </a>
+        <a href="https://x.com/" target="_blank">
+            <img src="assets/images/x.png" alt="X" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="assets/images/facebook.png" alt="Facebook" />
+        </a> <br />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5179.968439991851!2d-0.5082629597515042!3d38.32940472605966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62370e5b0c15f1%3A0x91f6bc3a8100bda5!2sIES%20MARE%20NOSTRUM%20CALLE%20PANAM%C3%81%2022%20ALICANTE!5e0!3m2!1ses!2ses!4v1793878391866!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><br />
+        &copy;2026 CLÍNICA DIW <br />
+        <a href="#">Política de privacidad y cookies</a>
+    </footer>
+</body>
+</html>

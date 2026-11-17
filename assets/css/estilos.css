@@ -276,3 +276,11 @@ form textarea {
         height: 300px;
     }
 }
+
+img:not([alt]) {
+    border: 3px solid red;
+}
+
+a[href$=".pdf"]::after {
+    content: url("https://www.shareicon.net/data/16x16/2016/08/13/808584_document_512x512.png");
+}
